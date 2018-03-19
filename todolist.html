@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Todo App</title>
+	<link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.css" rel="stylesheet">
+	<link href="datetimepicker/jquery.datetimepicker.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+</head>
+<body>
+	<div class="msg">
+		<span class="msg-content"></span>
+		<span class="anchor confirmed">知道了</button>
+	</div>
+
+	<div class="container"> <!--总容器开始-->
+		<h1>我的ToDo</h1>
+		<form class="add-task">
+			<input name="content" type="text" placeholder="e.g.晚上要学习第三章内容" 
+			autofocus autocomplete="off">
+			<button type="submit">submit</button>
+		</form>
+		<div class="task-list"><!--清单列表开始-->
+			
+			
+
+		</div><!--清单列表结束-->
+		<div class="task-detail-mask"></div>
+		<div class="task-detail"><!--任务详情开始-->
+		<div>
+			<div class="content"><!--任务标题开始-->
+				下午记得买菜
+			</div><!--任务标题结束-->
+			<div><!--任务描述开始-->
+				<div class="desc">
+					<textarea id=""></textarea>
+				</div>
+			</div><!--任务描述结束-->
+			<div class="remind"><!--任务定时提醒开始-->
+				<input type="date">
+				<!--<button type="submit">submit</button>-->
+			</div><!--任务定时提醒结束-->
+		</div>
+		</div><!--任务详情结束-->
+		
+	</div><!--总容器结束-->
+<script type="text/javascript" src="F:/muke/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="datetimepicker/build/jquery.datetimepicker.full.js"></script>
+<script type="text/javascript" src="js/store.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+</body>
+</html>
